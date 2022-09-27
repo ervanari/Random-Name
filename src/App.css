@@ -1,3 +1,5 @@
+/** @format */
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.names {
+  color: #fff;
+  font-size: 100px;
+  text-transform: uppercase;
+  transition: 0.5s all;
+  border: 5px dotted #fff;
+  width: 100%;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
