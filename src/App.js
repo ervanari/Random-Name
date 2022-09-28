@@ -29,10 +29,9 @@ function App() {
     });
 
     promise.then((d) => {
-      console.log(d);
       let tmp = [];
       d.map((val) => {
-        tmp.push(val.reference);
+        tmp.push(val.Nama);
         setItems(tmp);
       });
     });
@@ -43,7 +42,6 @@ function App() {
       <header className='App-header'>
         <NameRandom names={items} interval={50} />
       </header>
-      {console.log("items", items)}
       <div>
         <input
           type='file'
